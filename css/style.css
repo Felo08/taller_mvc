@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+#contenedor_logo_añadir {
+  position: fixed;
+  bottom: 7%;
+  right: 5%;
+}
+
+#logo_anadir {
+  border-radius: 50%;
+  padding: 0px;
+  width: 90px;
+  height: 90px;
+}
+
+#logo_anadir:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+#icono {
+  fill: #161b1d;
+}
+
+#icono:hover {
+  fill: #1e2222;
+}
+
+#contenedor_logo_excel {
+  position: fixed;
+  bottom: 23%;
+  right: 5%;
+}
+
+#logo_excel {
+  background-color: #23b823;
+  padding: 0px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+#logo_excel:hover {
+  background-color: #3cc43c;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+#icono_excel {
+  fill: #fff;
+  margin-left: 5.6%;
+  margin-top: 4%;
+}
+
+#icono_excel:hover {
+  fill: rgb(247, 238, 238);
+}

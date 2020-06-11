@@ -1,0 +1,31 @@
+
+	/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  .border-div{
+      border: solid 1px red; padding: 20px;
+	}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+	.border-div{
+      border: solid 1px green; padding: 20px;
+	}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { .border-div{
+      border: solid 1px blue; padding: 20px;
+	}
+ }
+
+.border-div{
+      border: solid 1px black; padding: 20px;
+	}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #295aa7 !important;
+}
+
+.error{ color: red;}

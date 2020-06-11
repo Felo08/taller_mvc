@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "select2-bootstrap-theme",
+      "c:\\xampp\\htdocs\\sp\\public"
+    ]
+  ],
+  "_from": "select2-bootstrap-theme@latest",
+  "_id": "select2-bootstrap-theme@0.1.0-beta.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/select2-bootstrap-theme",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/select2-bootstrap-theme-0.1.0-beta.8.tgz_1467220883707_0.7693696292117238"
+  },
+  "_npmUser": {
+    "email": "sechskilo@gmail.com",
+    "name": "fk"
+  },
+  "_npmVersion": "3.8.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "select2-bootstrap-theme",
+    "raw": "select2-bootstrap-theme",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/select2-bootstrap-theme/-/select2-bootstrap-theme-0.1.0-beta.8.tgz",
+  "_shasum": "abc57b7c57cde20c1b98bf6392b6325072bc053a",
+  "_shrinkwrap": null,
+  "_spec": "select2-bootstrap-theme",
+  "_where": "c:\\xampp\\htdocs\\sp\\public",
+  "author": {
+    "name": "Florian Kissling"
+  },
+  "bugs": {
+    "url": "https://github.com/select2/select2-bootstrap-theme/issues"
+  },
+  "dependencies": {},
+  "description": "A theme for Select2 v4 and Bootstrap 3.",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "diff": "^2.2.2",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-gh-pages": "^1.1.0",
+    "grunt-jekyll": "^0.4.4",
+    "grunt-postcss": "^0.8.0",
+    "grunt-scss2less": "0.0.1",
+    "matchdep": "^1.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dist": {
+    "shasum": "abc57b7c57cde20c1b98bf6392b6325072bc053a",
+    "tarball": "https://registry.npmjs.org/select2-bootstrap-theme/-/select2-bootstrap-theme-0.1.0-beta.8.tgz"
+  },
+  "gitHead": "9b033829e02d468576915d79a3ff975c6fea7857",
+  "homepage": "https://github.com/select2/select2-bootstrap-theme",
+  "keywords": [
+    "bootstrap",
+    "select2",
+    "css"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/select2/select2-bootstrap-theme/blob/master/LICENSE"
+  },
+  "main": "",
+  "maintainers": [
+    {
+      "email": "sechskilo@gmail.com",
+      "name": "fk"
+    }
+  ],
+  "name": "select2-bootstrap-theme",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/select2/select2-bootstrap-theme.git"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "style": "select2-bootstrap.css",
+  "version": "0.1.0-beta.8"
+}
