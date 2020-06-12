@@ -42,9 +42,9 @@ $(document).ready(function () {
         if (respuesta.resultado) {
 
           $("#ingresar_vehiculo")[0].reset();
-          recargar_tabla();
           $('#Modal_form').modal('hide');
           $.notify(respuesta.mensaje, "success");
+           setTimeout(recargar_tabla, 500);
 
         } else {
 
@@ -125,12 +125,12 @@ $(document).ready(function () {
     $.post('../controlador/cvehiculos.php', { action: "SalidaVehiculo", id_vehiculo: $('#btn_salida').val() }, function (respuesta) {
 
       if (respuesta.resultado) {
-        recargar_tabla();
         swalWithBootstrapButtons.fire(
           'Adios!',
           respuesta.mensaje,
           'success'
         )
+        setTimeout(recargar_tabla, 1000);
 
       } else {
 
@@ -145,12 +145,7 @@ $(document).ready(function () {
     }, "json");
   }
 
-  function recargar_tabla() {
-
-    $.post('../controlador/cvehiculos.php', { action: "recargar_tabla" }, function (respuesta) {
-      $("#contenedor_lista_vehiculos").html(respuesta);
-    });
-  }
+  function recargar_tabla() { location.reload(); }
 
 
 });
